@@ -2,10 +2,10 @@
 // #include <WiFiClient.h>
 // #include <ESP8266WiFi.h>
 
-// const char *ssid = "Ponto Alto";
-// const char *password = "2357111317";
-// const char *mqttServer = "10.0.0.107";
-// const int mqttPort = 3000;
+// const char *ssid = "WIFI CONNECTION NAME";
+// const char *password = "WIFI PASSWORD";
+// const char *mqttServer = "BROKER_IP ONLY LIKE 10.0.0.123";
+// const int mqttPort = MQTTPORT;
 
 // WiFiClient espClient;
 // PubSubClient client(espClient);
