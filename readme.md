@@ -36,7 +36,11 @@ npm run dev
 
 ### Prerequisites
 
-To develop neuroptics you will need to use the "platformio" iot platform, for the server you will need nodejs to be installed on your machine
+* **Neuroptics**
+To develop you will need to download the Platformio extension for your vscode, you will also need a nodemcu esp8266 or similar module to use the wifi connection features, in this version I am using two leds connected to a protoboard connected to ports 4 and 5, I am also using two resistors and three jumpers to connect to the board's leds and the gnd
+
+* **Systems**
+For the server, you need nodejs installed on your machine.
 
 
 ## Authors
