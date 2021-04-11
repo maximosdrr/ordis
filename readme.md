@@ -1,6 +1,6 @@
-# Project Title
+# Ordis
 
-One Paragraph of project description goes here
+An open source project that aims to create a controller for arduino extensions using the MQTT protocol, in addition we also created a broker server for mqtt where a socket.io interface is used for easy communication with devices of any type
 
 ## Getting Started
 
