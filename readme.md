@@ -6,7 +6,7 @@ One Paragraph of project description goes here
 
 The first step to start the project is to go to the Neuroptics / src directory and create a file called "connection-config.h", inside it you will need to have a code similar to this one replacing the values with your personal settings
 
-```
+```c++
 const char \*SSID = "YOUR SSID"; //wifi name
 const char \*PASSWORD = "YOUR WIFI PASSWORD"; //wifi password
 const char \*MQTT_SERVER = "BROKER SERVER IP LIKE 10.0.0.000"; //broker server
