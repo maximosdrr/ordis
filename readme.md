@@ -11,7 +11,6 @@ const char *SSID = "YOUR SSID"; //wifi name
 const char *PASSWORD = "YOUR WIFI PASSWORD"; //wifi password
 const char *MQTT_SERVER = "BROKER SERVER IP "; //broker server example: 10.0.0.000
 const int MQTT_PORT = 3000; //broker port
-
 ```
 
 Now we need to configure the .env file in the system part of ordis, first go to the "Systems" folder and inside it create a file called .env, inside it you should have a configuration similar to this one
@@ -21,7 +20,6 @@ MQTT_PORT=YOUR_MQTT_PORT //example: 3000
 EXPRESS_PORT=YOUR_EXPRESS_PORT //example: 3001
 MQTT_HOST="YOUR_MQTT_HOST"  //example: "mqtt://10.0.0.107"
 BROKER_HOST="YOUR_BROKER_HOST" //example "10.0.0.107"
-
 ```
 
 
@@ -29,13 +27,11 @@ now to finish the process we just need to give an npm install or yarn to install
 
 ```
 npm install
-
 ```
 npm run dev start the server
 
 ```
 npm run dev
-
 ```
 
 ### Prerequisites
