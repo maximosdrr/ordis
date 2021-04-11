@@ -18,8 +18,8 @@ Now we need to configure the .env file in the system part of ordis, first go to 
 ```javascript
 MQTT_PORT = YOUR_MQTT_PORT; //example: 3000
 EXPRESS_PORT = YOUR_EXPRESS_PORT; //example: 3001
-MQTT_HOST = "YOUR_MQTT_HOST"; //example: "mqtt://10.0.0.107"
-BROKER_HOST = "YOUR_BROKER_HOST"; //example "10.0.0.107"
+MQTT_HOST = "YOUR_MQTT_HOST"; //example: "mqtt://10.0.0.100"
+BROKER_HOST = "YOUR_BROKER_HOST"; //example "10.0.0.100"
 ```
 
 now to finish the process we just need to give an npm install or yarn to install the node_modules and the systems will be ready to run
