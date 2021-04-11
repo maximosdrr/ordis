@@ -38,7 +38,7 @@ npm run dev
 
 - **Commitzen:**
 
-To standardize your commits I recommend using commitzen, it is easy to install and can be found here: [Commitzen] (https://github.com/commitizen/cz-cli)
+To standardize your commits I recommend using commitzen, it is easy to install and can be found here: [Commitzen](https://github.com/commitizen/cz-cli)
 
 If you still don't have the commitzen installed globally on your machine, you should install it through npm or yarn
 
