@@ -11,9 +11,13 @@
 WiFiClient CLIENT;
 PubSubClient MQTT(CLIENT);
 
+// void setMqttController(char *topic, byte *payload, unsigned int length)
+// {
+//     mqttController(topic, payload, length);
+// }
+
 void connectMqtt(const char *MQTT_SERVER, int MQTT_PORT)
 {
-
     Serial.println("Connecting to MQTT...");
 
     MQTT.setServer(MQTT_SERVER, MQTT_PORT);

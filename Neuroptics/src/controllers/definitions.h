@@ -1,2 +1,2 @@
-#define GREEN_LED 4
-#define RED_LED 5
+#define LED_1 4
+#define LED_2 5
